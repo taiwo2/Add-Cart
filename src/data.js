@@ -1,4 +1,6 @@
-import { originalName as alias } from 'module'
+import img1 from './imag/green.jpg'
+import img2 from './imag/melon.jpg'
+import img3 from './imag/orange.jpg'
 const data = {
 productionData:[
     {

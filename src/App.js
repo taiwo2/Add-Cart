@@ -1,12 +1,17 @@
 import React from 'react'
-import '../node_modules/bootstrap/dist/css/bootstrap.css.min'
+import Cart from './Cart'
 import Home from './Home'
+import { CartProvider } from 'react-use-cart'
+
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <>
+      <CartProvider>
+        <Home />
+        <Cart />
+      </CartProvider> 
+    </>
   );
 }
 
